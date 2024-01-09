@@ -60,11 +60,7 @@ function darkmode_init() {
 
 // Check if user has darkmode on
 
-  let isDarkMode = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
-
-  if (isDarkMode === 'true'){
-    darkmodeCookie.set('true');
-  }
+  const isDarkMode = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
 
  
 window.matchMedia("(prefers-color-scheme: dark)")
