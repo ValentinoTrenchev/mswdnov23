@@ -1,0 +1,1 @@
+docker run --rm --interactive --tty --volume %CD%:/app composer create-project  --prefer-dist laravel/laravel sc-bed-productdb
